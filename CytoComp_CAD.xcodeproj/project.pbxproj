@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9724EA9617C65437001AAA8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9724EA9517C65437001AAA8B /* Foundation.framework */; };
+		9724EA9817C65437001AAA8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9724EA9717C65437001AAA8B /* CoreGraphics.framework */; };
+		9724EA9A17C65437001AAA8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9724EA9917C65437001AAA8B /* UIKit.framework */; };
+		9724EAA017C65437001AAA8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9724EA9E17C65437001AAA8B /* InfoPlist.strings */; };
+		9724EAA217C65437001AAA8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9724EAA117C65437001AAA8B /* main.m */; };
+		9724EAA617C65437001AAA8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9724EAA517C65437001AAA8B /* AppDelegate.m */; };
+		9724EAA917C65437001AAA8B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9724EAA717C65437001AAA8B /* Main_iPhone.storyboard */; };
+		9724EAAC17C65437001AAA8B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9724EAAA17C65437001AAA8B /* Main_iPad.storyboard */; };
+		9724EAAF17C65437001AAA8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9724EAAE17C65437001AAA8B /* ViewController.m */; };
+		9724EAB117C65437001AAA8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9724EAB017C65437001AAA8B /* Images.xcassets */; };
+		9724EAB817C65437001AAA8B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9724EAB717C65437001AAA8B /* XCTest.framework */; };
+		9724EAB917C65437001AAA8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9724EA9517C65437001AAA8B /* Foundation.framework */; };
+		9724EABA17C65437001AAA8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9724EA9917C65437001AAA8B /* UIKit.framework */; };
+		9724EAC217C65437001AAA8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9724EAC017C65437001AAA8B /* InfoPlist.strings */; };
+		9724EAC417C65437001AAA8B /* CytoComp_CADTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9724EAC317C65437001AAA8B /* CytoComp_CADTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9724EABB17C65437001AAA8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9724EA8A17C65437001AAA8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9724EA9117C65437001AAA8B;
+			remoteInfo = CytoComp_CAD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9724EA9217C65437001AAA8B /* CytoComp_CAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CytoComp_CAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9724EA9517C65437001AAA8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9724EA9717C65437001AAA8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9724EA9917C65437001AAA8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9724EA9D17C65437001AAA8B /* CytoComp_CAD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CytoComp_CAD-Info.plist"; sourceTree = "<group>"; };
+		9724EA9F17C65437001AAA8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9724EAA117C65437001AAA8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9724EAA317C65437001AAA8B /* CytoComp_CAD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CytoComp_CAD-Prefix.pch"; sourceTree = "<group>"; };
+		9724EAA417C65437001AAA8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9724EAA517C65437001AAA8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9724EAA817C65437001AAA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9724EAAB17C65437001AAA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9724EAAD17C65437001AAA8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9724EAAE17C65437001AAA8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9724EAB017C65437001AAA8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9724EAB617C65437001AAA8B /* CytoComp_CADTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CytoComp_CADTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9724EAB717C65437001AAA8B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9724EABF17C65437001AAA8B /* CytoComp_CADTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CytoComp_CADTests-Info.plist"; sourceTree = "<group>"; };
+		9724EAC117C65437001AAA8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9724EAC317C65437001AAA8B /* CytoComp_CADTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CytoComp_CADTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9724EA8F17C65437001AAA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9724EA9817C65437001AAA8B /* CoreGraphics.framework in Frameworks */,
+				9724EA9A17C65437001AAA8B /* UIKit.framework in Frameworks */,
+				9724EA9617C65437001AAA8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9724EAB317C65437001AAA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9724EAB817C65437001AAA8B /* XCTest.framework in Frameworks */,
+				9724EABA17C65437001AAA8B /* UIKit.framework in Frameworks */,
+				9724EAB917C65437001AAA8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9724EA8917C65437001AAA8B = {
+			isa = PBXGroup;
+			children = (
+				9724EA9B17C65437001AAA8B /* CytoComp_CAD */,
+				9724EABD17C65437001AAA8B /* CytoComp_CADTests */,
+				9724EA9417C65437001AAA8B /* Frameworks */,
+				9724EA9317C65437001AAA8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9724EA9317C65437001AAA8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9724EA9217C65437001AAA8B /* CytoComp_CAD.app */,
+				9724EAB617C65437001AAA8B /* CytoComp_CADTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9724EA9417C65437001AAA8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9724EA9517C65437001AAA8B /* Foundation.framework */,
+				9724EA9717C65437001AAA8B /* CoreGraphics.framework */,
+				9724EA9917C65437001AAA8B /* UIKit.framework */,
+				9724EAB717C65437001AAA8B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9724EA9B17C65437001AAA8B /* CytoComp_CAD */ = {
+			isa = PBXGroup;
+			children = (
+				9724EAA417C65437001AAA8B /* AppDelegate.h */,
+				9724EAA517C65437001AAA8B /* AppDelegate.m */,
+				9724EAA717C65437001AAA8B /* Main_iPhone.storyboard */,
+				9724EAAA17C65437001AAA8B /* Main_iPad.storyboard */,
+				9724EAAD17C65437001AAA8B /* ViewController.h */,
+				9724EAAE17C65437001AAA8B /* ViewController.m */,
+				9724EAB017C65437001AAA8B /* Images.xcassets */,
+				9724EA9C17C65437001AAA8B /* Supporting Files */,
+			);
+			path = CytoComp_CAD;
+			sourceTree = "<group>";
+		};
+		9724EA9C17C65437001AAA8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9724EA9D17C65437001AAA8B /* CytoComp_CAD-Info.plist */,
+				9724EA9E17C65437001AAA8B /* InfoPlist.strings */,
+				9724EAA117C65437001AAA8B /* main.m */,
+				9724EAA317C65437001AAA8B /* CytoComp_CAD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9724EABD17C65437001AAA8B /* CytoComp_CADTests */ = {
+			isa = PBXGroup;
+			children = (
+				9724EAC317C65437001AAA8B /* CytoComp_CADTests.m */,
+				9724EABE17C65437001AAA8B /* Supporting Files */,
+			);
+			path = CytoComp_CADTests;
+			sourceTree = "<group>";
+		};
+		9724EABE17C65437001AAA8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9724EABF17C65437001AAA8B /* CytoComp_CADTests-Info.plist */,
+				9724EAC017C65437001AAA8B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9724EA9117C65437001AAA8B /* CytoComp_CAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9724EAC717C65437001AAA8B /* Build configuration list for PBXNativeTarget "CytoComp_CAD" */;
+			buildPhases = (
+				9724EA8E17C65437001AAA8B /* Sources */,
+				9724EA8F17C65437001AAA8B /* Frameworks */,
+				9724EA9017C65437001AAA8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CytoComp_CAD;
+			productName = CytoComp_CAD;
+			productReference = 9724EA9217C65437001AAA8B /* CytoComp_CAD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9724EAB517C65437001AAA8B /* CytoComp_CADTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9724EACA17C65437001AAA8B /* Build configuration list for PBXNativeTarget "CytoComp_CADTests" */;
+			buildPhases = (
+				9724EAB217C65437001AAA8B /* Sources */,
+				9724EAB317C65437001AAA8B /* Frameworks */,
+				9724EAB417C65437001AAA8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9724EABC17C65437001AAA8B /* PBXTargetDependency */,
+			);
+			name = CytoComp_CADTests;
+			productName = CytoComp_CADTests;
+			productReference = 9724EAB617C65437001AAA8B /* CytoComp_CADTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9724EA8A17C65437001AAA8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Dr Gerd Moe-Behrens";
+				TargetAttributes = {
+					9724EAB517C65437001AAA8B = {
+						TestTargetID = 9724EA9117C65437001AAA8B;
+					};
+				};
+			};
+			buildConfigurationList = 9724EA8D17C65437001AAA8B /* Build configuration list for PBXProject "CytoComp_CAD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9724EA8917C65437001AAA8B;
+			productRefGroup = 9724EA9317C65437001AAA8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9724EA9117C65437001AAA8B /* CytoComp_CAD */,
+				9724EAB517C65437001AAA8B /* CytoComp_CADTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9724EA9017C65437001AAA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9724EAAC17C65437001AAA8B /* Main_iPad.storyboard in Resources */,
+				9724EAB117C65437001AAA8B /* Images.xcassets in Resources */,
+				9724EAA917C65437001AAA8B /* Main_iPhone.storyboard in Resources */,
+				9724EAA017C65437001AAA8B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9724EAB417C65437001AAA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9724EAC217C65437001AAA8B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9724EA8E17C65437001AAA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9724EAAF17C65437001AAA8B /* ViewController.m in Sources */,
+				9724EAA617C65437001AAA8B /* AppDelegate.m in Sources */,
+				9724EAA217C65437001AAA8B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9724EAB217C65437001AAA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9724EAC417C65437001AAA8B /* CytoComp_CADTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9724EABC17C65437001AAA8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9724EA9117C65437001AAA8B /* CytoComp_CAD */;
+			targetProxy = 9724EABB17C65437001AAA8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9724EA9E17C65437001AAA8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9724EA9F17C65437001AAA8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9724EAA717C65437001AAA8B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9724EAA817C65437001AAA8B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9724EAAA17C65437001AAA8B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9724EAAB17C65437001AAA8B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9724EAC017C65437001AAA8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9724EAC117C65437001AAA8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9724EAC517C65437001AAA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9724EAC617C65437001AAA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9724EAC817C65437001AAA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CytoComp_CAD/CytoComp_CAD-Prefix.pch";
+				INFOPLIST_FILE = "CytoComp_CAD/CytoComp_CAD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9724EAC917C65437001AAA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CytoComp_CAD/CytoComp_CAD-Prefix.pch";
+				INFOPLIST_FILE = "CytoComp_CAD/CytoComp_CAD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9724EACB17C65437001AAA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CytoComp_CAD.app/CytoComp_CAD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CytoComp_CAD/CytoComp_CAD-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CytoComp_CADTests/CytoComp_CADTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9724EACC17C65437001AAA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CytoComp_CAD.app/CytoComp_CAD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CytoComp_CAD/CytoComp_CAD-Prefix.pch";
+				INFOPLIST_FILE = "CytoComp_CADTests/CytoComp_CADTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9724EA8D17C65437001AAA8B /* Build configuration list for PBXProject "CytoComp_CAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9724EAC517C65437001AAA8B /* Debug */,
+				9724EAC617C65437001AAA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9724EAC717C65437001AAA8B /* Build configuration list for PBXNativeTarget "CytoComp_CAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9724EAC817C65437001AAA8B /* Debug */,
+				9724EAC917C65437001AAA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9724EACA17C65437001AAA8B /* Build configuration list for PBXNativeTarget "CytoComp_CADTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9724EACB17C65437001AAA8B /* Debug */,
+				9724EACC17C65437001AAA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9724EA8A17C65437001AAA8B /* Project object */;
+}
